@@ -9,7 +9,7 @@ class WC_Gateway_Wompi_Custom extends WC_Payment_Gateway {
     /**
      * Vars
      */
-    const MINIMUM_ORDER_AMOUNT = 150000;
+    const MINIMUM_ORDER_AMOUNT = 1000;
     public $testmode;
     public $public_key;
     public $private_key;
